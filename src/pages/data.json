@@ -1,0 +1,817 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": false,
+  "dairyFree": false,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 11,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 2,
+  "healthScore": 13,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 293.39,
+  "extendedIngredients": [
+    {
+      "id": 99209,
+      "aisle": "Refrigerated",
+      "image": "onion-dip.png",
+      "consistency": "SOLID",
+      "name": "gorgonzola dip",
+      "nameClean": "onion dip",
+      "original": "Gorgonzola Dip",
+      "originalName": "Gorgonzola Dip",
+      "amount": 8.0,
+      "unit": "servings",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 8.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 8.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 1179,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "sour-cream.jpg",
+      "consistency": "SOLID",
+      "name": "cream",
+      "nameClean": "light sour cream",
+      "original": "1/2 cup reduced-fat sour cream",
+      "originalName": "reduced-fat sour cream",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": ["sour", "reduced-fat"],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 115.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 1256,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "plain-yogurt.jpg",
+      "consistency": "LIQUID",
+      "name": "greek yogurt",
+      "nameClean": "greek yogurt",
+      "original": "1/4 cup Greek yogurt",
+      "originalName": "Greek yogurt",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 50.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 1011004,
+      "aisle": "Cheese",
+      "image": "gorgonzola.jpg",
+      "consistency": "SOLID",
+      "name": "gorgonzola",
+      "nameClean": "gorgonzola",
+      "original": "1/2 cup crumbled gorgonzola",
+      "originalName": "crumbled gorgonzola",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": ["crumbled"],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 56.5,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "garlic pepper",
+      "nameClean": "garlic",
+      "original": "1 teaspoon garlic pepper (or your favorite house seasoning)",
+      "originalName": "garlic pepper (or your favorite house seasoning)",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": ["your favorite", "(or house seasoning)"],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "1/2 teaspoon salt",
+      "originalName": "salt",
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 2048,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "apple-cider-vinegar.jpg",
+      "consistency": "LIQUID",
+      "name": "apple cider vinegar",
+      "nameClean": "apple cider vinegar",
+      "original": "1 tablespoon apple cider vinegar",
+      "originalName": "apple cider vinegar",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 17330,
+      "aisle": null,
+      "image": null,
+      "consistency": "SOLID",
+      "name": "buffalo strips",
+      "nameClean": null,
+      "original": "Buffalo Strips",
+      "originalName": "Buffalo Strips",
+      "amount": 8.0,
+      "unit": "servings",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 8.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 8.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 1055062,
+      "aisle": "Meat",
+      "image": "chicken-breasts.png",
+      "consistency": "SOLID",
+      "name": "chicken breasts",
+      "nameClean": "boneless skinless chicken breast",
+      "original": "1 pound boneless, skinless chicken breasts, cut into strips",
+      "originalName": "boneless, skinless chicken breasts, cut into strips",
+      "amount": 1.0,
+      "unit": "pound",
+      "meta": ["boneless", "skinless", "cut into strips"],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "lb",
+          "unitLong": "pound"
+        },
+        "metric": {
+          "amount": 453.592,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "2 teaspoons salt",
+      "originalName": "salt",
+      "amount": 2.0,
+      "unit": "teaspoons",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 93749,
+      "aisle": "Ethnic Foods",
+      "image": "chili-garlic-sauce.jpg",
+      "consistency": "LIQUID",
+      "name": "chili garlic sauce",
+      "nameClean": "chili garlic sauce",
+      "original": "2 teaspoons chili garlic sauce",
+      "originalName": "chili garlic sauce",
+      "amount": 2.0,
+      "unit": "teaspoons",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 98878,
+      "aisle": "Condiments",
+      "image": "hot-sauce-or-tabasco.png",
+      "consistency": "SOLID",
+      "name": "frank's",
+      "nameClean": "buffalo sauce",
+      "original": "2 tablespoons Frank's Red Hot",
+      "originalName": "Frank's Red Hot",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": ["red", "hot"],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 1088,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "buttermilk.jpg",
+      "consistency": "SOLID",
+      "name": "buttermilk",
+      "nameClean": "low fat buttermilk",
+      "original": "1 cup low fat buttermilk",
+      "originalName": "low fat buttermilk",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": ["low fat"],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 240.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 10018079,
+      "aisle": "Baking",
+      "image": "panko.jpg",
+      "consistency": "SOLID",
+      "name": "panko crumbs",
+      "nameClean": "panko",
+      "original": "1 1/2 cups whole wheat panko crumbs",
+      "originalName": "whole wheat panko crumbs",
+      "amount": 1.5,
+      "unit": "cups",
+      "meta": ["whole wheat"],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 90.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 20080,
+      "aisle": "Baking",
+      "image": "flour.png",
+      "consistency": "SOLID",
+      "name": "flour",
+      "nameClean": "whole wheat flour",
+      "original": "8 tablespoons whole wheat flour",
+      "originalName": "whole wheat flour",
+      "amount": 8.0,
+      "unit": "tablespoons",
+      "meta": ["whole wheat"],
+      "measures": {
+        "us": {
+          "amount": 8.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 8.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 1012028,
+      "aisle": "Spices and Seasonings",
+      "image": "paprika.jpg",
+      "consistency": "SOLID",
+      "name": "paprika",
+      "nameClean": "smoked paprika",
+      "original": "1 1/2 teaspoons smoked paprika",
+      "originalName": "smoked paprika",
+      "amount": 1.5,
+      "unit": "teaspoons",
+      "meta": ["smoked"],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 1.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 2031,
+      "aisle": "Spices and Seasonings",
+      "image": "chili-powder.jpg",
+      "consistency": "SOLID",
+      "name": "cayenne",
+      "nameClean": "ground cayenne pepper",
+      "original": "1 teaspoon cayenne",
+      "originalName": "cayenne",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "1 1/2 teaspoons salt",
+      "originalName": "salt",
+      "amount": 1.5,
+      "unit": "teaspoons",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 1.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 98878,
+      "aisle": "Condiments",
+      "image": "hot-sauce-or-tabasco.png",
+      "consistency": "SOLID",
+      "name": "frank's",
+      "nameClean": "buffalo sauce",
+      "original": "1/4 cup Frank's Red Hot",
+      "originalName": "Frank's Red Hot",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": ["red", "hot"],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 60.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    }
+  ],
+  "id": 635657,
+  "title": "Boneless Buffalo Strips",
+  "readyInMinutes": 45,
+  "servings": 8,
+  "sourceUrl": "https://www.foodista.com/recipe/Q7TVWWX2/boneless-buffalo-strips",
+  "image": "https://img.spoonacular.com/recipes/635657-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Boneless Buffalo Strips requires around <b>45 minutes</b> from start to finish. One serving contains <b>389 calories</b>, <b>34g of protein</b>, and <b>20g of fat</b>. This recipe serves 8 and costs $2.93 per serving. Only a few people made this recipe, and 2 would say it hit the spot. It is brought to you by Foodista. A mixture of chicken breasts, cream, flour, and a handful of other ingredients are all it takes to make this recipe so tasty. It works well as a main course. With a spoonacular <b>score of 41%</b>, this dish is good. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/boneless-buffalo-strips-1312765\">Boneless Buffalo Strips</a>, <a href=\"https://spoonacular.com/recipes/boneless-buffalo-strips-1249767\">Boneless Buffalo Strips</a>, and <a href=\"https://spoonacular.com/recipes/boneless-buffalo-strips-1636439\">Boneless Buffalo Strips</a>.",
+  "cuisines": [],
+  "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+  "diets": [],
+  "occasions": [],
+  "instructions": "Whisk together buttermilk, chili-garlic sauce, Franks, buttermilk, vinegar and salt.  Add chicken and marinate overnight.\nPreheat oven to 450 degrees.  Spray wire rack with cooking spray.\nCombine panko, flour, paprika, cayenne and salt in a large bowl.\nDredge chicken in flour mixture, shake of access and place on wire rack.  Repeat with all chicken  pieces.\nSpray chicken breasts with cooking spray, making sure to hit all parts of the chicken.\nCook for 10 minutes.  Take out, turn chicken pieces over, spray again, and return to oven for another 5 minutes, or until all pieces are golden brown and chicken reaches 155 degrees.\nMeanwhile, in a small food processor add ingredients for gorgonzola dip.  Process until smooth.\nWhen chicken strips are done, with a pastry brush, brush strips with Franks Red Hot.  Serve with gorgonzola sauce and carrot and celery sticks.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Whisk together buttermilk, chili-garlic sauce, Franks, buttermilk, vinegar and salt.",
+          "ingredients": [
+            {
+              "id": 93749,
+              "name": "chili garlic sauce",
+              "localizedName": "chili garlic sauce",
+              "image": "chili-garlic-sauce.jpg"
+            },
+            {
+              "id": 1230,
+              "name": "buttermilk",
+              "localizedName": "buttermilk",
+              "image": "buttermilk.jpg"
+            },
+            {
+              "id": 2053,
+              "name": "vinegar",
+              "localizedName": "vinegar",
+              "image": "vinegar-(white).jpg"
+            },
+            {
+              "id": 21118,
+              "name": "hot dogs",
+              "localizedName": "hot dogs",
+              "image": "hotdogs.png"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404661,
+              "name": "whisk",
+              "localizedName": "whisk",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/whisk.png"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Add chicken and marinate overnight.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "chicken",
+              "localizedName": "chicken",
+              "image": "whole-chicken.jpg"
+            }
+          ],
+          "equipment": []
+        },
+        {
+          "number": 3,
+          "step": "Preheat oven to 450 degrees.  Spray wire rack with cooking spray.",
+          "ingredients": [
+            {
+              "id": 4679,
+              "name": "cooking spray",
+              "localizedName": "cooking spray",
+              "image": "cooking-spray.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 405900,
+              "name": "wire rack",
+              "localizedName": "wire rack",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/wire-rack.jpg"
+            },
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Combine panko, flour, paprika, cayenne and salt in a large bowl.",
+          "ingredients": [
+            {
+              "id": 2031,
+              "name": "ground cayenne pepper",
+              "localizedName": "ground cayenne pepper",
+              "image": "chili-powder.jpg"
+            },
+            {
+              "id": 2028,
+              "name": "paprika",
+              "localizedName": "paprika",
+              "image": "paprika.jpg"
+            },
+            {
+              "id": 20081,
+              "name": "all purpose flour",
+              "localizedName": "all purpose flour",
+              "image": "flour.png"
+            },
+            {
+              "id": 10018079,
+              "name": "panko",
+              "localizedName": "panko",
+              "image": "panko.jpg"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Dredge chicken in flour mixture, shake of access and place on wire rack.  Repeat with all chicken  pieces.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "chicken",
+              "localizedName": "chicken",
+              "image": "whole-chicken.jpg"
+            },
+            {
+              "id": 20081,
+              "name": "all purpose flour",
+              "localizedName": "all purpose flour",
+              "image": "flour.png"
+            },
+            {
+              "id": 0,
+              "name": "shake",
+              "localizedName": "shake",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 405900,
+              "name": "wire rack",
+              "localizedName": "wire rack",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/wire-rack.jpg"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Spray chicken breasts with cooking spray, making sure to hit all parts of the chicken.",
+          "ingredients": [
+            {
+              "id": 5062,
+              "name": "chicken breast",
+              "localizedName": "chicken breast",
+              "image": "chicken-breasts.png"
+            },
+            {
+              "id": 4679,
+              "name": "cooking spray",
+              "localizedName": "cooking spray",
+              "image": "cooking-spray.png"
+            },
+            {
+              "id": 0,
+              "name": "chicken",
+              "localizedName": "chicken",
+              "image": "whole-chicken.jpg"
+            }
+          ],
+          "equipment": []
+        },
+        {
+          "number": 7,
+          "step": "Cook for 10 minutes.  Take out, turn chicken pieces over, spray again, and return to oven for another 5 minutes, or until all pieces are golden brown and chicken reaches 155 degrees.",
+          "ingredients": [
+            {
+              "id": 1005006,
+              "name": "chicken pieces",
+              "localizedName": "chicken pieces",
+              "image": "chicken-parts.jpg"
+            },
+            {
+              "id": 0,
+              "name": "chicken",
+              "localizedName": "chicken",
+              "image": "whole-chicken.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 15,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 8,
+          "step": "Meanwhile, in a small food processor add ingredients for gorgonzola dip.  Process until smooth.",
+          "ingredients": [
+            {
+              "id": 1011004,
+              "name": "gorgonzola",
+              "localizedName": "gorgonzola",
+              "image": "gorgonzola.jpg"
+            },
+            {
+              "id": 0,
+              "name": "dip",
+              "localizedName": "dip",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404771,
+              "name": "food processor",
+              "localizedName": "food processor",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/food-processor.png"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "step": "When chicken strips are done, with a pastry brush, brush strips with Franks Red Hot.",
+          "ingredients": [
+            {
+              "id": 1015062,
+              "name": "chicken tenders",
+              "localizedName": "chicken tenders",
+              "image": "chicken-tenders-or-fingers.png"
+            },
+            {
+              "id": 21118,
+              "name": "hot dogs",
+              "localizedName": "hot dogs",
+              "image": "hotdogs.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404764,
+              "name": "pastry brush",
+              "localizedName": "pastry brush",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pastry-brush.jpg"
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "step": "Serve with gorgonzola sauce and carrot and celery sticks.",
+          "ingredients": [
+            {
+              "id": 10111143,
+              "name": "celery rib",
+              "localizedName": "celery sticks",
+              "image": "celery.jpg"
+            },
+            {
+              "id": 1011004,
+              "name": "gorgonzola",
+              "localizedName": "gorgonzola",
+              "image": "gorgonzola.jpg"
+            },
+            {
+              "id": 11124,
+              "name": "carrot",
+              "localizedName": "carrot",
+              "image": "sliced-carrot.png"
+            },
+            {
+              "id": 0,
+              "name": "sauce",
+              "localizedName": "sauce",
+              "image": ""
+            }
+          ],
+          "equipment": []
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 58.922786712646484,
+  "spoonacularSourceUrl": "https://spoonacular.com/boneless-buffalo-strips-635657"
+}
