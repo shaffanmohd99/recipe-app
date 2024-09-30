@@ -68,7 +68,7 @@ function Home() {
     <>
       <div className="flex w-full max-w-sm items-center space-x-2 ">
         <Input
-          type="search "
+          type="search"
           placeholder="Search..."
           onChange={(e) => handleSearch(e.target.value)}
         />
