@@ -57,7 +57,7 @@ function Home() {
     queryFn: () => getSearchRecipe(search),
     enabled: search !== "", // Only run when debouncedQuery is not empty
   });
-  const dataToDisplay = search !== "" ? searchData?.results : data?.recipes;
+  const dataToDisplay = search !== "" ? searchData?.results :data?.recipes;
   console.log("🚀 ~ Home ~ dataToDisplay:", dataToDisplay);
   console.log(
     "🚀 ~ Home ~ dataToDisplay:",
@@ -66,7 +66,7 @@ function Home() {
 
   return (
     <>
-      <div className="flex w-full max-w-sm items-center space-x-2">
+      <div className="flex w-full max-w-sm items-center space-x-2 ">
         <Input
           type="search"
           placeholder="Search..."
