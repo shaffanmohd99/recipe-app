@@ -28,6 +28,8 @@ const request = axios.create({
   },
 });
 
+app.get("/", (req, res) => res.send("your backend is working"));
+
 app.get("/recipe", async (req, res) => {
   const limit = req.query.limit;
   try {
