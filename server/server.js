@@ -8,7 +8,7 @@ import { dirname } from "path";
 // Create __dirname equivalent
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-dotenv.config({ path: `${__dirname}/../.env.local` });
+dotenv.config({ path: `${__dirname}/../.env` });
 
 const PORT = 8000;
 
