@@ -28,7 +28,7 @@ export const getOneRecipe = async (
   id: number | string
 ): Promise<RecipeResponse> => {
   const response: AxiosResponse<RecipeResponse> =
-    await axios.get<RecipeResponse>(`/recipes/${id}/information`);
-    // await axios.get<RecipeResponse>(`/recipe/${id}`);
+    // await axios.get<RecipeResponse>(`/recipes/${id}/information`);
+    await axios.get<RecipeResponse>(`/recipe/${id}`);
   return response.data;
 };

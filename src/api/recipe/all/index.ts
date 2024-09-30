@@ -20,15 +20,14 @@ export const getRandomRecipe = async (
   limit: number
 ): Promise<RecipeResponse> => {
   const response: AxiosResponse<RecipeResponse> =
-    await axios.get<RecipeResponse>(`/recipes/random?number=${limit}`);
-    // await axios.get<RecipeResponse>(`/recipe?limit=${limit}`);
+    // await axios.get<RecipeResponse>(`/recipes/random?number=${limit}`);
+    await axios.get<RecipeResponse>(`/recipe?limit=${limit}`);
   return response.data;
 };
 export const getSearchRecipe = async (
   search: string
 ): Promise<RecipeSearchResponse> => {
   const response: AxiosResponse<RecipeSearchResponse> =
-    await axios.get<RecipeSearchResponse>(`/recipes/complexSearch?query=${search}`);
-    // await axios.get<RecipeSearchResponse>(`/search-recipe?search=${search}`);
+    await axios.get<RecipeSearchResponse>(`/search-recipe?search=${search}`);
   return response.data;
 };
