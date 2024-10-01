@@ -9,8 +9,8 @@ import { dirname } from "path";
 // Create __dirname equivalent
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-dotenv.config({ path: `${__dirname}/.env` });
-dotenv.config();
+// dotenv.config({ path: `${__dirname}/.env.local` });
+dotenv.config(); 
 
 const PORT = 8000;
 
@@ -19,7 +19,6 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 
 const BASE_URL = process.env.BASE_URL;
-console.log("🚀 ~ BASE_URL:", BASE_URL)
 
 const API_KEY = process.env.API_KEY;
 
