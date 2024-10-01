@@ -5,10 +5,12 @@ import dotenv from "dotenv";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 
+
 // Create __dirname equivalent
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-dotenv.config({ path: `${__dirname}/../.env` });
+dotenv.config({ path: `${__dirname}/.env` });
+dotenv.config();
 
 const PORT = 8000;
 
@@ -17,6 +19,7 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 
 const BASE_URL = process.env.BASE_URL;
+console.log("🚀 ~ BASE_URL:", BASE_URL)
 
 const API_KEY = process.env.API_KEY;
 
@@ -28,7 +31,7 @@ const request = axios.create({
   },
 });
 
-app.get("/", (req, res) => res.send("your backend is working npw"));
+app.get("/", (req, res) => res.send("your backend is working now"));
 
 app.get("/recipe", async (req, res) => {
   const limit = req.query.limit;
