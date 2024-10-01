@@ -61,3 +61,5 @@ app.get("/recipe/:id", async (req, res) => {
 });
 
 app.listen(8000, () => console.log(`server is running on port ${PORT}`));
+
+export default app;

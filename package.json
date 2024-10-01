@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:backend": "nodemon server/index.js",
-    "start:backend": "node server/index.js",    
+    "dev:backend": "nodemon api/index.js",
+    "start:backend": "node api/index.js",    
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
